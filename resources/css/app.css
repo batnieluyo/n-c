@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+    .own-translate {
+        transform: translateX(50%);
+    }
+    .own-translate-2 {
+        transform: translate(-50%, -50%);
+    }
+    .own-scale {
+        transform: scale(1.2);
+    }
+    .own-shadow {
+        -webkit-box-shadow: inset 0px 0px 29px -23px #000000;
+        box-shadow: inset 0px 0px 29px -28px #000000;
+    }
+}
